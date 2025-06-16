@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  font-family: "Young Serif", serif;
+}
+
+.container{
+    padding :50px;
+}
+
+.section-one{
+    padding :50px;
+}
+
+.section-one{
+    background-color :black;
+    color :white;
+    padding :20px;
+}
+
+.section-one__contact{
+    background-color :orangered;
+    color :white;
+    text-decoration :none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display :inline-block;
+    margin-top: 10px;
+}
+
+.section-one__name{
+    font-size :60px;
+}
+
+.section-one__role{
+    font-size :30px;
+    margin-top :10px;
+}
+
+.section-two,.section-three,.section-four,.section-five{
+    margin-top :20px;
+}
+
+.section-two__description,.section-three__description,.section-four__description,.section-five__description{
+    margin-top :10px;
+}
+
+.section-five{
+    background-color :black;
+    color :white;
+    padding :20px;
+}
+
+.section-five__title a{
+    color :skyblue;
+    text-decoration :none;
+}
+
+.section-three li,.section-four li{
+    list-style-type: none;
+}
+
+.section-three{
+    background-color: #6462fd;
+    padding :20px;
+    color :black;
+    display :inline-block;
+    border-radius: 10px;
+    height :200px;
+    vertical-align: top;
+}
+
+.section-four{
+    background-color: #fe7517;
+    padding :20px;
+    color :black;
+    display :inline-block;
+    border-radius: 10px;
+    height :200px;
+    vertical-align: top;
+}
+
+.contact__input,.contact__textarea,.contact__submit{
+    margin-top :10px;
+}
+
+.contact__input{
+    border :none;
+    border-bottom :solid black 1px;
+}
+
+.contact__textarea{
+    padding :10px;
+    border :none;
+    border-bottom :solid black 1px;  
+}
+
+.contact__textarea{
+    border :none;
+    border:solid black 1px;
+    margin-top :10px;
+}
+
+.contact__submit{
+    padding-top :10px;
+    padding-bottom :10px;
+    padding-left :20px;
+    padding-right :20px;   
+    background-color :orangered;
+    color :black;
+    border :none;
+}
